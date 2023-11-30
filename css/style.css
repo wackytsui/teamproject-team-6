@@ -17,3 +17,6 @@ header {
 .logo {
     fill: var(--white);
 }
+footer {
+    background-color: var(--dark-green);
+}
