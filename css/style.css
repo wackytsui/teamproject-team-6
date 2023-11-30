@@ -4,19 +4,106 @@
     --black: #141414;
     --black-opacity: hsba(0, 0%, 8%, 0.5);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: ;
     font-family: "Epilogue", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
+    
 }
 header {
     background-color: var(--black);
     color: var(--white);
+    
 }
 .logo {
     fill: var(--white);
 }
 footer {
     background-color: var(--dark-green);
+}
+ul {
+    list-style: none;
+}
+/* start of navigation style */
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin: 0 132px 0 132px ;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 48px;
+}
+.nav-logo {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+.btn-tel {
+    height: 48px;
+    width: 159px;
+    color: var(--white);
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.333;
+    text-transform: uppercase;
+    background-color: var(--dark-green);
+    border-style: none;
+}
+/* end of navigation style */
+.hero-container {
+    display: flex;
+    margin: 0 132px 0 132px ;
+    flex-wrap: wrap;
+}
+.hero-disc {
+    display: flex;
+    gap: 144px;
+}
+.hero-disc li h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 62px; /* 103.333% */
+    letter-spacing: -2.4px;
+    width: 750px;   
+}
+.hero-disc li p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 282px;
+}
+.hero-image {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.hero-slide {
+    display: flex;
+    width: 436px;
+    height: 255px;
+    flex-shrink: 0;
+    background-color: var(--dark-green);
+    justify-content: center;
 }
