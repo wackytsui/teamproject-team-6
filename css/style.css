@@ -1,0 +1,19 @@
+:root {
+    --dark-green: #1E2827;
+    --white: #FFF;
+    --black: #141414;
+    --black-opacity: hsba(0, 0%, 8%, 0.5);
+}
+body {
+    background-color: ;
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+header {
+    background-color: var(--black);
+    color: var(--white);
+}
+.logo {
+    fill: var(--white);
+}
