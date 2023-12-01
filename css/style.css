@@ -71,6 +71,8 @@ a {
     border-style: none;
 }
 /* end of navigation style */
+
+/* start of hero style */
 .hero-container {
     display: flex;
     margin: 0 132px 0 132px ;
@@ -107,3 +109,4 @@ a {
     background-color: var(--dark-green);
     justify-content: center;
 }
+/* end of hero style  */
