@@ -260,13 +260,36 @@ h2 {
 }
 
 
-/* sale section style */
+/* start of BLOCK section style*/
+.block-title {
+    color: rgba(20, 20, 20, 0.40);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0.72px;
+}
 
-.sale-text {
+.table-title {
     font-size: 40px;
     font-weight: 600;
-    line-height: 44px; /* 110% */
+    line-height: 44px;
     letter-spacing: -0.8px;
+}
+
+/* start of SALE section style */
+
+.sale-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+}
+
+.sale-image{ }
+    
+
+.classy {
+    margin-left: 40px;
 }
 
 .classy-title {
@@ -277,7 +300,7 @@ h2 {
     text-wrap: wrap;
 }
 
-.sale-container {
+.sale-section {
     display: flex;
     margin-top: 124px;
 
@@ -302,5 +325,4 @@ h2 {
 }
 .classy-text {
     margin-top: 44px;
-    margin-left: 40px;
 }
