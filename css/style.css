@@ -158,6 +158,8 @@ h2 {
     line-height: 18px;
     /* 128.571% */
     letter-spacing: -0.28px;
+    width: 255px;
+    height: 18px;
 }
 
 .catalog-image-item > .catalog-watch-price {
